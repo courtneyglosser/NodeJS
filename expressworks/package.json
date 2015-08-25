@@ -1,0 +1,15 @@
+
+{
+  "name": "expressworks",
+  "version": "1.0.0",
+  "author": "Courtney Glosser <courtneyglosser@gmail.com>",
+  "description": "Learning Rest",
+  "private": true,
+  "scripts": {
+    "install": "node setup.js",
+    "test": "find test/ -name '*.js' | grep -v '/load/' | xargs ./node_modules/mocha/bin/mocha "
+  },
+  "dependencies": {
+    "express": "^4"
+  }
+}
