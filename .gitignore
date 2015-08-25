@@ -13,3 +13,5 @@ out.log
 /npm-debug.log
 node_modules/*
 tmp/*
+*/node_modules/*
+*/npm-debug.log
