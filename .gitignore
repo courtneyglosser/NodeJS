@@ -1,3 +1,15 @@
 #Ignore auto-saved files:
 
 *~
+
+#Importing from other nodejs repo
+*.iml
+*.ipr
+*.iws
+.idea
+/.project
+out.log
+*.orig
+/npm-debug.log
+node_modules/*
+tmp/*
